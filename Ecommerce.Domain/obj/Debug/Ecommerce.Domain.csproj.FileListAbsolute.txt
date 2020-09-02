@@ -1,0 +1,6 @@
+C:\Users\Juan\source\repos\Ecommerce\Ecommerce.Domain\bin\Debug\Ecommerce.Domain.dll
+C:\Users\Juan\source\repos\Ecommerce\Ecommerce.Domain\bin\Debug\Ecommerce.Domain.pdb
+C:\Users\Juan\source\repos\Ecommerce\Ecommerce.Domain\obj\Debug\Ecommerce.Domain.csprojAssemblyReference.cache
+C:\Users\Juan\source\repos\Ecommerce\Ecommerce.Domain\obj\Debug\Ecommerce.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Juan\source\repos\Ecommerce\Ecommerce.Domain\obj\Debug\Ecommerce.Domain.dll
+C:\Users\Juan\source\repos\Ecommerce\Ecommerce.Domain\obj\Debug\Ecommerce.Domain.pdb

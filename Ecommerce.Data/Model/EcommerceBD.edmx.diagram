@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="889946263ab74b0e8f8e1d3e1d3918f9" Name="Diagram1">
+        <EntityTypeShape EntityType="FreeStoreModel.Bill" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreeStoreModel.BillDetail" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreeStoreModel.Billing" Width="1.5" PointX="3" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreeStoreModel.Category" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreeStoreModel.CategoryProduct" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreeStoreModel.Client" Width="1.5" PointX="1.5" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreeStoreModel.Comments" Width="1.5" PointX="6" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreeStoreModel.ImageProduct" Width="1.5" PointX="3" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreeStoreModel.PayWay" Width="1.5" PointX="1.5" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreeStoreModel.Product" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FreeStoreModel.Qualification" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <AssociationConnector Association="FreeStoreModel.FK_Bill_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="FreeStoreModel.FK_Bill_PayWay" ManuallyRouted="false" />
+        <AssociationConnector Association="FreeStoreModel.FK_BillDetail_Bill" ManuallyRouted="false" />
+        <AssociationConnector Association="FreeStoreModel.FK_Billing_Bill" ManuallyRouted="false" />
+        <AssociationConnector Association="FreeStoreModel.FK_BillDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="FreeStoreModel.FK_CategoryProduct_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="FreeStoreModel.FK_CategoryProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="FreeStoreModel.FK_Comments_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="FreeStoreModel.FK_Qualification_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="FreeStoreModel.FK_Comments_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="FreeStoreModel.FK_ImageProduct_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="FreeStoreModel.FK_Qualification_Product" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
